@@ -1,13 +1,161 @@
-body {
+/* body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+} */
+/* * {
+  margin-top: 0;
+} */
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  margin: 0;
+  background-color: #f1f2f6;
+}
+
+.App {
+  margin-top: 0;
+  height: 100vh;
+}
+.nav {
+  width: 20%;
+  background-color: #ffffff;
+  margin-top: 0;
+  height: 100%;
+}
+.nav h2 {
+  text-align: center;
+
+  padding-top: 10px;
+  margin-top: 0;
+}
+.nav-icon {
+  color: gray;
+}
+.menu-head,
+.workspaces-head {
+  color: gray;
+  margin-left: 10px;
+}
+.n {
+  color: black;
+}
+.active,
+.active i {
+  background-color: blue;
+  color: white;
+}
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calendar-container,
+.notes-container,
+.tasks-container,
+.projects-container,
+.dashboard-container,
+.designTeam-container,
+.marketing-container,
+.personal-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  border-radius: 5px;
+}
+.calendar-container,
+.notes-container,
+.tasks-container,
+.projects-container,
+.dashboard-container {
+  padding: 10px;
+}
+.designTeam-container,
+.marketing-container,
+.personal-container {
+  padding: 15px;
+  padding-top: 0;
+}
+.workspaces-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  padding: 0;
+  margin: 0;
+  /* color: black; */
+}
+
+.workspaces-icon {
+  font-size: 12px;
+}
+.i1 {
+  color: purple;
+}
+.i2 {
+  color: orange;
+}
+.i3 {
+  color: green;
+}
+hr {
+  width: 90%;
+  border: none;
+  height: 0.7px;
+  background: gray;
+}
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 15px;
+  height: 25%;
+}
+.profile {
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+}
+.profile-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.name {
+  font-weight: bold;
+  font-size: 17px;
+  margin: 0;
+}
+.email {
+  color: gray;
+  margin: 0;
+}
+img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+.log-out {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  color: gray;
+}
+.logout-icon {
+  font-size: 20px;
 }
