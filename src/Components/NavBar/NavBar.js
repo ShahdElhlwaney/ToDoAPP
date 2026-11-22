@@ -1,7 +1,7 @@
 import { MenuComponent } from "./MenuComponent";
 import { WorkspaceComponent } from "./WorkspaceComponent";
-import myImage from "../Images/my-photo.jpg";
-
+import myImage from "../../Images/my-photo.jpg";
+import "./navBar.css";
 export function NavBar() {
   return (
     <div className="nav">

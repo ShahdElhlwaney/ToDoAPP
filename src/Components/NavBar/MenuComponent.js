@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./navBar.css";
 
 export function MenuComponent({ className, children }) {
   const [isActive, setIsActive] = useState(false);

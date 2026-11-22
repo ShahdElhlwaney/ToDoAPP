@@ -1,0 +1,165 @@
+.tasks-today-card {
+  background-color: #fff;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-radius: 18px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  width: 25%;
+  max-width: 370px;
+  height: 65%;
+}
+
+/* Header */
+.tasks-today-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.tasks-today-header h2 {
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.category-filter {
+  padding: 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  height: 25px;
+}
+
+/* Tasks list */
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* Individual task */
+.task-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+/* Checkbox */
+.task-checkbox {
+  flex-shrink: 0;
+}
+
+.task-checkbox input {
+  appearance: none;
+  width: 23px;
+  height: 23px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+
+.task-checkbox input:checked {
+  background-color: #4b27d8;
+  border-color: #4b27d8;
+}
+
+.task-checkbox input:checked::after {
+  content: "✓";
+  color: white;
+  position: absolute;
+  left: 4px;
+  top: -1px;
+  font-size: 16px;
+}
+
+.task-main-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.task-name {
+  font-size: 15px;
+  color: #222;
+}
+
+.task-name.completed {
+  text-decoration: line-through;
+  color: #555;
+}
+
+.task-time {
+  font-size: 12px;
+  color: #666;
+  white-space: nowrap;
+}
+
+/* Category */
+.task-category {
+  display: inline-block;
+  margin-top: 7px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+/* Category colors */
+.category-work {
+  background-color: #dceaff;
+  color: #315b96;
+}
+
+.category-shopping {
+  background-color: #ffe6c9;
+  color: #9b5b22;
+}
+
+.category-personal {
+  background-color: #d9f2d0;
+  color: #417a35;
+}
+
+.category-design {
+  background-color: #ead8ff;
+  color: #7542a5;
+}
+
+/* Footer */
+.view-pending-tasks {
+  margin-top: 75px;
+  border: none;
+  background: none;
+  color: #45466f;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.view-pending-tasks:hover {
+  color: #4b27d8;
+}
+.category-work {
+  background-color: #dceaff;
+  color: #315b96;
+}
+
+.category-shopping {
+  background-color: #ffe6c9;
+  color: #9b5b22;
+}
+
+.category-personal {
+  background-color: #d9f2d0;
+  color: #417a35;
+}
+
+.category-design {
+  background-color: #ead8ff;
+  color: #7542a5;
+}
