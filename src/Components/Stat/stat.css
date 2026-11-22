@@ -1,0 +1,87 @@
+.task-stats {
+  background-color: #fff;
+  padding: 25px 20px;
+  border-radius: 18px;
+  width: 200px;
+  height: 55%;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.task-stats h2 {
+  font-size: 22px;
+  margin: 0 0 25px;
+  color: #222;
+}
+
+.stats-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.stat-icon {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 22px;
+}
+
+.stat-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.stat-title {
+  font-size: 14px;
+  color: #222;
+}
+
+.stat-count {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111;
+}
+
+/* Completed */
+.completed-stat {
+  background-color: #edf5e8;
+}
+
+.completed-stat .stat-icon {
+  background-color: #dcebcf;
+  color: #71964f;
+}
+
+/* Pending */
+.pending-stat {
+  background-color: #fff1e5;
+}
+
+.pending-stat .stat-icon {
+  background-color: #ffe2c5;
+  color: #c58b50;
+}
+
+/* Overdue */
+.overdue-stat {
+  background-color: #f0e9ff;
+}
+
+.overdue-stat .stat-icon {
+  background-color: #dfc9ff;
+  color: #7c3bd1;
+}

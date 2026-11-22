@@ -1,0 +1,26 @@
+.App {
+  margin-top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* gap: 25px; */
+  /* justify-content: space-between; */
+}
+
+.mainTasks-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.content-container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
